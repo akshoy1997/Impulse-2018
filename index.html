@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Impulse 2k18</title>
+    <title>Impulse</title>
 
     <!-- css -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
@@ -19,7 +20,14 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link href="style.css" rel="stylesheet">
     <link href="bootstrap.min.css" rel="stylesheet">
-    <link id="switcher" href="dark-red-theme.css" rel="stylesheet"> 
+    <link id="switcher" href="default-theme.css" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+    <link href="assets2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets2/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets2/css/slick.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets2/css/theme-color/red-theme" rel="stylesheet">
+
 </head>
 <body data-spy="scroll" data-target="#site-nav">
 
@@ -32,9 +40,9 @@
                     <a class="logo" href="index.html">
                         
                         <!-- logo image  -->
-                        <img src="assets/images/logo.png" alt="Logo">
+                        <img src="assets/images/impulse logo.png" alt="Logo">
 
-                        Impulse 2018
+                        <font size="4">2018</font>
                     </a>
                 </div>
 
@@ -59,7 +67,7 @@
                     <!--<li><a data-scroll href="#partner">Partner</a></li>-->                 
                     <!-- <li><a data-scroll href="#">Sponsorship</a></li> -->
                     <li><a data-scroll href="#faq">FAQ</a></li>
-                    <li><a data-scroll href="#mu-contact">Contact Us</a></li>
+                    <li><a data-scroll href="#contact">Contact Us</a></li>
                 
                 </ul>
             </div>
@@ -69,9 +77,11 @@
     <header id="site-header" class="site-header valign-center"> 
         <div class="intro">
 
-            <h2>Department of Electrical Engineering Presents</h2>
+            <h2>Department of Electrical Engineering,IIT Kharagpur </h2>
+	    <h2>Presents</h2>
             
-            <h1>Impulse 2018</h1>
+            <h1 style="font-size: 300%">Impulse 2018</h1>
+	    <br>
             
             <a class="btn btn-white" data-scroll href="#registration">Register Now</a>
         
@@ -83,7 +93,7 @@
             <div class="row">
                 <div class="col-sm-12">
 
-                    <h3 class="section-title">About Us</h3>
+                    <h2 class="section-title"><center>About Us</center></h2>
 
                     <p style="text-align: center; font-size: 130%;"><b>"Impulse 2018"</b> is the Third edition of the annual technical Fest of the Department of Electrical Engineering Indian Institute of Technology Kharagpur organised by the Electrical Engineering Society. We aim at bringing the students of Electrical/Electronics Engineering from various colleges to develop new breakthroughs in their respective fields that later might bring a revolution in the field. If you have an idea we are providing you a platform to showcase your talent in front of the best in the country. The event spans across an entire day of intense contests, challenging problems and spectacular presentations here in Kharagpur. If you have got what it takes to stand out among the rest, we welcome you here at <b>"Impulse"</b>.</p>
 
@@ -99,7 +109,7 @@
                 <div class="col-sm-3">
 
                     <i class="ion-ios-calendar"></i>
-                    <h3>2018<br>March 25-26</h3>
+                    <h3>2018<br>March 24-25</h3>
                 
                 </div>
                 <div class="col-sm-3">
@@ -128,66 +138,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="section-title">Registration &amp; Pricing</h3>
+                    <h2 class="section-title"><center>Registration</center></h2>
                 </div>
             </div>
-                
-            <form action="#" id="registration-form">
-                <div class="row">
-                    <div class="col-md-12" id="registration-msg" style="display:none;">
-                        <div class="alert"></div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="First Name" id="fname" name="fname" required>
-                        </div>
-
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Last Name" id="lname" name="lname" required>
-                        </div>
-
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Email" id="email" name="email" required>
-                        </div>
-
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Phone" id="cell" name="cell" required>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Address" id="address" name="address" required>
-                        </div>
-
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Zip Code" id="zip" name="zip" required>
-                        </div>
-
-                        <div class="form-group">
-                            <select class="form-control" name="city" id="city" required>
-                                <option readonly>City</option>
-                                <option>City Name 1</option>
-                                <option>City Name 2</option>
-                                <option>City Name 3</option>
-                                <option>City Name 4</option>
-                            </select>
-                        </div>
-
-                        <div class="form-group">
-                            <select class="form-control" name="program" id="program" required>
-                                <option readonly>Select Your Program</option>
-                                <option>Program Name 1</option>
-                                <option>Program Name 2</option>
-                                <option>Program Name 3</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center mt20">
-                    <button type="submit" class="btn btn-black" id="registration-submit-btn">Submit</button>
-                </div>
-            </form>
+            <p>Read <a href="https://docs.google.com/document/d/1PVhH5aFuT5mWNXkZ8YTbWSqgSvQ2Xs8NxmJ1hgpWad8/edit?ts=58b43d09" target="_blank" style="color:red" >these </a>Instructions before registration.</p>
+            <div class="embed-responsive embed-responsive-16by9">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSciGJvOgZR31-15l7EvL6Q9U7881sb_L0fhWLnwWN03rP7LdQ/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    </div>
         </div>
     </section>
 
@@ -209,180 +166,105 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="section-title">Events</h3>
+                    <h2 class="section-title"><center>Events</center></h3>
                 </div>
             </div>
-         </div>
-
-        <div class="container">
-            <div id="ca-container" class="ca-container">
-                <div class="ca-wrapper">
-                    <div class="ca-item ca-item-1">
-                        <div class="ca-item-main">
-                            <div class="ca-icon"></div>
-                            <h4>
-                                <span class="ca-quote">&ldquo;</span>
-                                <span>If you feel that you are great at Embedded Systems Design, this is the event for you. Come in teams of size 2 or 3 and implement the solution to an Embedded Design Problem. Participants are supposed to bring their laptops with relevant softwares installed.</span>
-                            </h4>
-                                <a href="#" class="ca-more">more...</a>
+            <div class="row">
+                <a href="https://docs.google.com/document/d/1Q6H6R1TPyehbHXP6gl5vo3pHVvqhw_-HzVtuKo_2Qj0/edit" target="_blank">
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box">
+                        <div class="time">
+                            <img alt="" src="images/embedit.png">
                         </div>
-                        <div class="ca-content-wrapper">
-                            <div class="ca-content">
-                                <h6>Rules Of the event</h6>
-                                <a href="#" class="ca-close">close</a>
-                                <div class="ca-content-text">
-                                    1) Only the top 10 teams will be called for the presentation.<br/>2) It is a team event with a maximum team size of 3 and minimum team size of 2 participants.<br/>3) Allowed simulation software will be mentioned in the Problem Statement.<br/>4) Judgement will be on the basis of innovation in idea and most optimised solution with 10% extra credits for hardware demonstrations(if applicable).<br/>5) Each team will be given 15 minutes of time for presenting their solution and about 10 mins Q/A session with the judges.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ca-item ca-item-2">
-                        <div class="ca-item-main">
-                            <div class="ca-icon"></div>
-                            <h4>
-                                <span class="ca-quote">&ldquo;</span>
-                                <span>Put on your thinking caps and get hyped up. It's time to challenge your skills in tackling brainstorming questions related to mathematics, quant and rudimentary electrical engineering concepts.</span>
-                            </h4>
-                                <a href="#" class="ca-more">more...</a>
-                        </div>
-                        <div class="ca-content-wrapper">
-                            <div class="ca-content">
-                                <h6>Rules Of The Event</h6>
-                                <a href="#" class="ca-close">close</a>
-                                <div class="ca-content-text">
-                                    1) This is a team event where every team will comprise of 3 members.<br/>2) This is an off-stage event.<br/>3) Total duration of the event is 90 minutes (single round event).<br/>4) There will be around 30 questions based on mathematics, analytical abilities and basic electrical engineering knowledge.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ca-item ca-item-3">
-                        <div class="ca-item-main">
-                            <div class="ca-icon"></div>
-                            <h4>
-                                <span class="ca-quote">&ldquo;</span>
-                                <span>It is an analog-digital electronics based event which tests your mettle in the field of electronic circuit design.It is a platform for all electronics enthusiasts to exhibit their skills by designing an electronic circuit and prov their dominance over integrated circuits.</span>
-                            </h4>
-                                <a href="#" class="ca-more">more...</a>
-                        </div>
-                        <div class="ca-content-wrapper">
-                            <div class="ca-content">
-                                <h6>Rules Of The Event</h6>
-                                <a href="#" class="ca-close">close</a>
-                                <div class="ca-content-text">
-                                    1) It is an on-the-spot event. Teams need to qualify a short written round to get into the hardware round.<br/>2) Maximum team size is 3 and minimum team size is 2.<br/>3) Duration of event is 2 hours.<br/>4) Event is open to all the students irrespective of the department.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ca-item ca-item-4">
-                        <div class="ca-item-main">
-                            <div class="ca-icon"></div>
-                            <h4>
-                                <span class="ca-quote">&ldquo;</span>
-                                <span>'Case Study' is all about analysing the given problem statement, showcase your consultancy skills and present a solution. The depth of your analysis as well as originality and feasibility of your solution will determine your score.</span>
-                            </h4>
-                                <a href="#" class="ca-more">more...</a>
-                        </div>
-                        <div class="ca-content-wrapper">
-                            <div class="ca-content">
-                                <h6>Rules Of The Event</h6>
-                                <a href="#" class="ca-close">close</a>
-                                <div class="ca-content-text">
-                                    1) The event is open to all.<br/>2) Teams must consist of a minimum of 2 and maximum of 4 participants.<br/>3) The event will be conducted in two phases:
-                                    <br/>Phase 1: Online submission of a pdf file addressing the questions asked in the problem statement. Deadline: 24/03/2017<br/>Phase 2: Final presentation by shortlisted teams on 26th March 2017<br/>4) Presentation time for each team would be 5 minutes followed by 5 minutes of question and answer session by judges.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ca-item ca-item-5">
-                        <div class="ca-item-main">
-                            <div class="ca-icon"></div>
-                            <h4>
-                                <span class="ca-quote">&ldquo;</span>
-                                <span>Quizmania is general quiz event which will check your awareness about the world.It covers all the general fields such as sports, business, technology, mental ability and social awareness. It also tests accumulation of knowledge in real life situation.</span>
-                            </h4>
-                                <a href="#" class="ca-more">more...</a>
-                        </div>
-                        <div class="ca-content-wrapper">
-                            <div class="ca-content">
-                                <h6>Rules Of The Event</h6>
-                                <a href="#" class="ca-close">close</a>
-                                <div class="ca-content-text">
-                                    1) No individual participants will be allowed.<br/>2) All teams can have 2 members.<br/>3) Use of any electronic gadgets such as mobile, tablet, laptop is strictly prohibited.Team will be disqualified if found using electronic gadgets.<br/>4) The event will be conducted in two phases<br/>Phase1: Written test.
-                                    <br/>Phase 2: Verbal Quiz.<br/>5) It is open to all students irrespective of department.
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ca-item ca-item-6">
-                        <div class="ca-item-main">
-                            <div class="ca-icon"></div>
-                            <h4>
-                                <span class="ca-quote">&ldquo;</span>
-                                <span>This is a unique opportunity to expand your imagination and critical thinking.Unlike traditional types of Treasure Hunt, this one will also test your Coding Skills as getting to the clues will require use of basic programming concepts.</span>
-                            </h4>
-                                <a href="#" class="ca-more">more...</a>
-                        </div>
-                        <div class="ca-content-wrapper">
-                            <div class="ca-content">
-                                <h6>Rules of The Event</h6>
-                                <a href="#" class="ca-close">close</a>
-                                <div class="ca-content-text">
-                                    1) It is a team event with a required team size of 2.<br/>2) Event is open to all students irrespective of the department.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ca-item ca-item-7">
-                        <div class="ca-item-main">
-                            <div class="ca-icon"></div>
-                            <h4>
-                                <span class="ca-quote">&ldquo;</span>
-                                <span>Power electronics has been considered as an important key to enable a resilient energy system for future energy mix which will include a larger percentage of renewables to a smart-grid community energy systems and electric vehicle charging.</span>
-                            </h4>
-                                <a href="#" class="ca-more">more...</a>
-                        </div>
-                        <div class="ca-content-wrapper">
-                            <div class="ca-content">
-                                <h6>Rules Of The Event</h6>
-                                <a href="#" class="ca-close">close</a>
-                                <div class="ca-content-text">
-                                    1) This is a presentation based event.<br/>2) The teams need to explain their solution to the panel based on which evaluation will be done.<br/>3)Judgement will be on the basis of innovation in idea and most optimised solution with 10% extra credits for some sort of hardware demonstrations.
-                                    <br/>4) It is a team event with a maximum team size of 3 and minimum team size of 2 participants.<br/>5) Event is open to all irrespective of the department.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ca-item ca-item-8">
-                        <div class="ca-item-main">
-                            <div class="ca-icon"></div>
-                            <h4>
-                                <span class="ca-quote">&ldquo;</span>
-                                <span>DATA ANALYTICS is the field that rules in many industries, companies and organizations in making business decisions.This event will aim to gauge your presentation and data analysis skills to the maximum.</span>
-                            </h4>
-                                <a href="#" class="ca-more">more...</a>
-                        </div>
-                        <div class="ca-content-wrapper">
-                            <div class="ca-content">
-                                <h6>Rules Of The Event</h6>
-                                <a href="#" class="ca-close">close</a>
-                                <div class="ca-content-text">
-                                    1) The event is open to all students irrespective of department.<br/>2) Teams must consist of a minimum of 1 and maximum of 3 participants.<br/>3) The participants need to submit their code and other files(if any) in a single zipped folder to eesiitkgp@gmail.com<br/>4) Subject of email must be Data Analytics Submission - Team Name, Eg. “Data Analytics Submission - Datagiri”<br/>5) The email body must contain name, contact number and Impulse-ID of all the team members.<br/>6) The last date of submission is 23nd March 2017 by 11.59 PM.<br/>7) Evaluation metric and Submission details are mentioned in the problem statement.
-                                </div>
-                            </div>
-                        </div>
+                        <p><b><i>If you feel that you are great at<br> Embedded Systems Design, this is<br> the event for you.</i></b></p>
                     </div>
                 </div>
+                </a>
+                <a href="https://docs.google.com/document/d/1a6CA4Yht3Z4Wxo0zqJk-bj8o5j3FOnSFFStmVQXPkIg/edit" target="_blank">
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box">
+                        <div class="time">
+                            <img alt="" src="images/enigma.png">
+                        </div>
+                        <p><b><i>Put on your thinking caps and<br> get hyped up. Challenge your skills<br> in tackling brainstorming questions.</i></b></p>
+                    </div>
+                </div>
+                </a>
+                <a href="https://docs.google.com/document/d/1VJTTWQttZj3kyuLPYHWBTsZMc1reAzCM2_So0MF50-g/edit" target="_blank">
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box">
+                        <div class="time">
+                            <img alt="" src="images/digianatronix.png">
+                        </div>
+                        <p><b><i>It is an analog-digital electronics<br> based event which tests your mettle<br> in the field of electronic circuit design.</i></b></p>
+                    </div>
+                </div>
+                </a>
             </div>
-        </div>        
+            <br>
+            <div class="row">
+                <a href="https://docs.google.com/document/d/1YCJDEXhSECDjzJTpnS9I_PRvAj_y6BdloABrgjHood8/edit" target="_blank">
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box">
+                        <div class="time">
+                            <img alt="" src="images/case study.png">
+                        </div>
+                        <p><b><i>'Case Study' is all about analysing<br> the problem statement, showcase your<br> consultancy skills and present a solution.</i></b></p>
+                    </div>
+                </div>
+                </a>
+                <a href="https://docs.google.com/document/d/1goqWEl0dlGIQ4jwMfAtzbiJH8rNmRgSYoXn4EikJLcc/edit" target="_blank">
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box">
+                        <div class="time">
+                            <img alt="" src="images/quizmania.png">
+                        </div>
+                        <p><b><i>Quizmania is general quiz event<br> which will check your awareness<br> about the world around you</i></b></p>
+                    </div>
+                </div>
+                </a>
+                <a href="https://docs.google.com/document/d/1n94Ov8motTPLkEm2agMJsNhesv9OvF69so1QeiyQ6-M/edit" target="_blank">
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box">
+                        <div class="time">
+                            <img alt="" src="images/treasure hunt.png">
+                        </div>
+                        <p><b><i>This is a unique opportunity<br> to expand your imagination<br> and critical thinking.</i></b></p>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <br>
+            <div class="row">
+                <a href="https://docs.google.com/document/d/1u1iq4X9wx1ANoaRvsTSljBca64PPP-kcnMEfI0Ku7GA/edit" target="_blank">
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box">
+                        <div class="time">
+                            <img alt="" src="images/re-energize.png">
+                        </div>
+                        <p><b><i>In this event, Impulse aims to<br> bring together the best ideas for the next<br> generation power electronic converters.</i></b></p>
+                    </div>
+                </div>
+                </a>
+                <a href="https://docs.google.com/document/d/1zH8Yaj4W-uKzIVVuQNl0WPZSkJZ8T6QOJBcrJoGDwls/edit" target="_blank">
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box">
+                        <div class="time">
+                            <img alt="" src="images/data analytics.png">
+                        </div>
+                        <p><b><i>Data Analytics will aim to gauge<br> your presentation and data analysis<br> skills to the maximum.</i></b></p>
+                    </div>
+                </div>
+                </a>
+            </div>
     </section>
 
             <!-- Start Schedule  -->
 	<section id="mu-schedule">
 
         <div class="mu-title-area">
-            <h2 class="mu-title">Schedule Detail</h2>
+            <h2 class="mu-title">SCHEDULE DETAILS</h2>
+            <p style="text-align: center; font-size: 130%;">For full schedule of Impulse 2018, <a target="_blank" class="footer_link2" href="SCHEDULE.jpg"> click here.</a></p> 
         </div>
 			<div class="container">
 				<div class="row">
@@ -392,9 +274,8 @@
 							<div class="mu-schedule-content-area">
 								<!-- Nav tabs -->
 								<ul class="nav nav-tabs mu-schedule-menu" role="tablist">
-								    <li role="presentation" class="active"><a href="#first-day" aria-controls="first-day" role="tab" data-toggle="tab">1 Day / 19 Feb</a></li>
-								    <li role="presentation"><a href="#second-day" aria-controls="second-day" role="tab" data-toggle="tab">2 Day / 20 Feb</a></li>
-								    <li role="presentation"><a href="#third-day" aria-controls="third-day" role="tab" data-toggle="tab">3 Day / 21 Feb</a></li>
+								    <li role="presentation" class="active"><a href="#first-day" aria-controls="first-day" role="tab" data-toggle="tab">1 Day / 24 March</a></li>
+								    <li role="presentation"><a href="#second-day" aria-controls="second-day" role="tab" data-toggle="tab">2 Day / 25 March</a></li>
 								    
 								</ul>
 
@@ -404,122 +285,68 @@
 								    	<ul>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">9.00 AM</p>
-								    				<h3>Breakfast</h3>
+								    				<p class="mu-event-time">10.00 AM - 12.00 AM</p>
+								    				<h3>ENIGMA</h3>
+								    				<h3>KVR Seminar Room</h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<img src="assets2/images/speaker-1.jpg" alt="event speaker">
-								    				<p class="mu-event-time">10.00 AM</p>
-								    				<h3>Advanced SVG Animations</h3>
-								    				<span>By Karl Groves</span>
+								    				<p class="mu-event-time">1.00 PM - 4.00 PM</p>
+								    				<h3>DATA ANALYTICS</h3>
+								    				<h3>KVR Seminar Room</h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<img src="assets2/images/speaker-2.jpg" alt="event speaker">
-								    				<p class="mu-event-time">11.00 AM</p>
-								    				<h3>Presenting Work with Confidence</h3>
-								    				<span>By Sarah Dransner</span>
+								    				<p class="mu-event-time">4.00 PM - 6.00 PM</p>
+								    				<h3>TREASURE HUNT</h3>
+								    				<h3>N-208</h3>
 								    			</div>
 								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<img src="assets2/images/speaker-3.jpg" alt="event speaker">
-								    				<p class="mu-event-time">12.00 AM</p>
-								    				<h3>Keynote on UX & UI Design</h3>
-								    				<span>By Ned Stark</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">1.00 PM</p>
-								    				<h3>The End</h3>
-								    			</div>
-								    		</li>
+								    		
 								    	</ul>
 								    </div>
 								    <div role="tabpanel" class="tab-pane fade mu-event-timeline" id="second-day">
 								    	<ul>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">9.00 AM</p>
-								    				<h3>Breakfast</h3>
+								    				<p class="mu-event-time">9.30 AM - 12.30 PM</p>
+								    				<h3>QUIZ MANIA</h3>
+								    				<h3>KVR Seminar Room</h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<img src="assets2/images/speaker-1.jpg" alt="event speaker">
-								    				<p class="mu-event-time">10.00 AM</p>
-								    				<h3>Advanced SVG Animations</h3>
-								    				<span>By Karl Groves</span>
+								    				<p class="mu-event-time">1.00 PM - 4.30 PM</p>
+								    				<h3>DIGIANATRONIX</h3>
+								    				<h3>KVR Seminar Room</h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<img src="assets2/images/speaker-2.jpg" alt="event speaker">
-								    				<p class="mu-event-time">11.00 AM</p>
-								    				<h3>Presenting Work with Confidence</h3>
-								    				<span>By Sarah Dransner</span>
+								    				<p class="mu-event-time">2.30 PM - 4.30 PM</p>
+								    				<h3>CASE STUDY</h3>
+								    				<h3>KVR Seminar Room</h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<img src="assets2/images/speaker-3.jpg" alt="event speaker">
-								    				<p class="mu-event-time">12.00 AM</p>
-								    				<h3>Keynote on UX & UI Design</h3>
-								    				<span>By Ned Stark</span>
+								    				<p class="mu-event-time">4.00 PM - 6.00 PM</p>
+								    				<h3>RE-ENERGIZE</h3>
+								    				<h3>KVR Seminar Room</h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">1.00 PM</p>
-								    				<h3>The End</h3>
+								    				<p class="mu-event-time">4.00 PM - 6.00 PM</p>
+								    				<h3>EMBED-IT</h3>
+								    				<h3>RTES Lab</h3>
 								    			</div>
 								    		</li>
 								    	</ul>
 								    </div>
-								    <div role="tabpanel" class="tab-pane fade mu-event-timeline" id="third-day">
-								    	<ul>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">9.00 AM</p>
-								    				<h3>Breakfast</h3>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<img src="assets2/images/speaker-1.jpg" alt="event speaker">
-								    				<p class="mu-event-time">10.00 AM</p>
-								    				<h3>Advanced SVG Animations</h3>
-								    				<span>By Karl Groves</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<img src="assets2/images/speaker-2.jpg" alt="event speaker">
-								    				<p class="mu-event-time">11.00 AM</p>
-								    				<h3>Presenting Work with Confidence</h3>
-								    				<span>By Sarah Dransner</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<img src="assets2/images/speaker-3.jpg" alt="event speaker">
-								    				<p class="mu-event-time">12.00 AM</p>
-								    				<h3>Keynote on UX & UI Design</h3>
-								    				<span>By Ned Stark</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">1.00 PM</p>
-								    				<h3>The End</h3>
-								    			</div>
-								    		</li>
-								    	</ul>
-								    </div>
+								    
 								    
 								</div>
 
@@ -573,9 +400,9 @@
     <section class="section speakers">
         <div class="container">
             <div class="row">
-                <div class="col-md-12" id="members">
+                <div class="col-md-12">
 
-                    <h3 class="section-title">Team</h3>
+                    <h2 id="members" class="section-title"><center>Team</center></h2>
                 
                 </div>
             </div>
@@ -593,8 +420,8 @@
                         <p>President Of EES</p>
 
                         <ul class="social-block">
-                            <li><a href="https://www.facebook.com/mayank.kalotia"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/mayankkalotia/"><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/mayank.kalotia"><i class="ion-social-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/mayankkalotia/"><i class="ion-social-linkedin-outline"></i></a></li>
                         </ul>
 
                     </div><!-- /.speaker -->
@@ -604,43 +431,21 @@
                     <div class="speaker">
 
                         <figure>
-                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-2.jpg">
+                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/saunak.jpg">
                         </figure>
 
-                        <h4>Jhon Smith</h4>
+                        <h4>Sounak Majji</h4>
 
-                        <p>CEO of Peren</p>
+                        <p>Vice Prseident Of EES</p>
 
                         <ul class="social-block">
-                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
-                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a target="_blank" href=""><i class="ion-social-facebook"></i></a></li>
+                            <li><a target="_blank" href=""><i class="ion-social-linkedin-outline"></i></a></li>
                         </ul>
 
                     </div><!-- /.speaker -->
                 </div><!-- /.col-md-4 -->
-
-                <div class="col-md-4">
-                    <div class="speaker">
-
-                        <figure>
-                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/tanuj.jpg">
-                        </figure>
-
-                        <h4>Tanuj Bagri</h4>
-
-                        <p>General Secretary</p>
-
-                        <ul class="social-block">
-                            <li><a href="https://www.facebook.com/tanuj.bagri.1"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/tanuj-bagri-2bb250128/"><i class="ion-social-linkedin-outline"></i></a></li>
-                        </ul>
-
-                    </div><!-- /.speaker -->
-                </div><!-- /.col-md-4 -->
-            </div><!-- /.row -->
-
-            <div class="row">
-                <div class="col-md-4">
+				<div class="col-md-4">
 
                     <div class="speaker">
 
@@ -653,8 +458,30 @@
                         <p>General Secretary</p>
 
                         <ul class="social-block">
-                            <li><a href="https://www.facebook.com/profile.php?id=100004585535554"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/joyjit-paul-0b2126148/"><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100004585535554"><i class="ion-social-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/joyjit-paul-0b2126148/"><i class="ion-social-linkedin-outline"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div><!-- /.row -->
+
+            <div class="row">
+                <div class="col-md-4">
+
+                    <div class="speaker">
+
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/tanuj.jpg">
+                        </figure>
+
+                        <h4>Tanuj Bagri</h4>
+
+                        <p>General Secretary</p>
+
+                        <ul class="social-block">
+                            <li><a target="_blank" href="https://www.facebook.com/tanuj.bagri.1"><i class="ion-social-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/tanuj-bagri-2bb250128/"><i class="ion-social-linkedin-outline"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -671,8 +498,8 @@
                         <p>Web Head</p>
 
                         <ul class="social-block">
-                            <li><a href="https://www.facebook.com/pushpendra.singhrathore.71619"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/pushpendra-singh-rathore-1b5b35112/"><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/pushpendra.singhrathore.71619"><i class="ion-social-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/pushpendra-singh-rathore-1b5b35112/"><i class="ion-social-linkedin-outline"></i></a></li>
                         </ul>
 
                     </div>
@@ -684,10 +511,10 @@
                             <img alt="" class="img-responsive center-block" src="assets/images/speakers/saumya.jpg">
                         </figure>
                         <h4>Saumya Jain</h4>
-                        <p>CEO of Peren</p>
+                        <p>Finance Head</p>
                         <ul class="social-block">
-                            <li><a href="https://www.facebook.com/saumya.jain.35513"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/saumya-jain-122243130/"><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/saumya.jain.35513"><i class="ion-social-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/saumya-jain-122243130/"><i class="ion-social-linkedin-outline"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -702,11 +529,11 @@
 
                         <h4>Rahul Raj</h4>
 
-                        <p>CEO Of Peren</p>
+                        <p>Sponsorship Head</p>
 
                         <ul class="social-block">
-                            <li><a href="https://www.facebook.com/rahulnetarhat"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/rahul-raj-iitkgp/"><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/rahulnetarhat"><i class="ion-social-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/rahul-raj-iitkgp/"><i class="ion-social-linkedin-outline"></i></a></li>
                         </ul>
 
                     </div>
@@ -721,11 +548,11 @@
 
                         <h4>Saransh Khandelwal</h4>
 
-                        <p>CEO Of Peren</p>
+                        <p>Shadow Tut Head</p>
 
                         <ul class="social-block">
-                            <li><a href="https://www.facebook.com/saransh.khandelwal.5477"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/saransh-khandelwal-2a768a127/"><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/saransh.khandelwal.5477"><i class="ion-social-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/saransh-khandelwal-2a768a127/"><i class="ion-social-linkedin-outline"></i></a></li>
                         </ul>
 
                     </div>
@@ -744,8 +571,8 @@
                         <p>Design Head</p>
 
                         <ul class="social-block">
-                            <li><a href="https://www.facebook.com/vineeth.ravi.184"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/vineeth-m-r-a3495b102/"><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/vineeth.ravi.184"><i class="ion-social-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/vineeth-m-r-a3495b102/"><i class="ion-social-linkedin-outline"></i></a></li>
                         </ul>
 
                     </div>
@@ -761,11 +588,11 @@
 
                         <h4>Rakesh Kumar Arwini</h4>
 
-                        <p>Team Member</p>
+                        <p>Events head</p>
 
                         <ul class="social-block">
-                            <li><a href="https://www.facebook.com/RakeshKumar.Arwini"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/rakesh-kumar-arwini-14958312a/"><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/RakeshKumar.Arwini"><i class="ion-social-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/rakesh-kumar-arwini-14958312a/"><i class="ion-social-linkedin-outline"></i></a></li>
                         </ul>
 
                     </div>
@@ -781,11 +608,11 @@
 
                         <h4>Akshay Deuri</h4>
 
-                        <p>Web Member</p>
+                        <p>Team Member</p>
 
                         <ul class="social-block">
-                            <li><a href="https://www.facebook.com/akshay.deuri.75"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/akshoy-deuri-752b67126/"><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/akshay.deuri.75"><i class="ion-social-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/akshoy-deuri-752b67126/"><i class="ion-social-linkedin-outline"></i></a></li>
                         </ul>
 
                     </div>
@@ -801,11 +628,11 @@
 
                         <h4>Ravi Ranjan</h4>
 
-                        <p>Web Member</p>
+                        <p>Team Member</p>
 
                         <ul class="social-block">
-                            <li><a href="https://www.facebook.com/raviranjan747"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/ravi-ranjan-6b1815153/"><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/raviranjan747"><i class="ion-social-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/ravi-ranjan-6b1815153/"><i class="ion-social-linkedin-outline"></i></a></li>
                         </ul>
 
                     </div>
@@ -824,8 +651,8 @@
                         <p>Team Member</p>
 
                         <ul class="social-block">
-                            <li><a href="https://www.facebook.com/punyak007"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/punyak-johri-659a13151/"><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/punyak007"><i class="ion-social-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/punyak-johri-659a13151/"><i class="ion-social-linkedin-outline"></i></a></li>
                         </ul>
 
                     </div>
@@ -841,11 +668,11 @@
 
                         <h4>Vijay Lamba</h4>
 
-                        <p>Design Member</p>
+                        <p>Team Member</p>
 
                         <ul class="social-block">
-                            <li><a href="https://www.facebook.com/vijay.lamba.1998"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/vijay.lamba.1998"><i class="ion-social-facebook"></i></a></li>
+                            <li><a target="_blank" href=""><i class="ion-social-linkedin-outline"></i></a></li>
                         </ul>
 
                     </div>
@@ -864,8 +691,8 @@
                         <p>Team Member</p>
 
                         <ul class="social-block">
-                            <li><a href="https://www.facebook.com/umang.fogla"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/umang-fogla-ba28a5131/"><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/umang.fogla"><i class="ion-social-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/umang-fogla-ba28a5131/"><i class="ion-social-linkedin-outline"></i></a></li>
                         </ul>
 
                     </div>
@@ -884,8 +711,8 @@
                         <p>Team Member</p>
 
                         <ul class="social-block">
-                            <li><a href="https://www.facebook.com/gauravgupta8898"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/gaurav-gupta-3b7479138/"><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/gauravgupta8898"><i class="ion-social-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/gaurav-gupta-3b7479138/"><i class="ion-social-linkedin-outline"></i></a></li>
                         </ul>
 
                     </div>
@@ -899,7 +726,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="section-title">Event FAQs</h3>
+                    <h2 class="section-title"><center>Event FAQs</center></h2>
                 </div>
             </div>
             <div class="row">
@@ -915,7 +742,7 @@
 
                             <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                 <div class="panel-body">
-                                    <p>Impulse 2017 is open to all. You can register on the following link:</p>
+                                    <p>Impulse 2018 is open to all. You can register on the following link: <a data-scroll class="footer_link2" href="#registration">Click here</a></p>
                                 </div>
                             </div>
                         </div>
@@ -940,7 +767,7 @@
                             </div>
 
                             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                <div class="panel-body">There are 8 events to be conducted in IMPULSE 2018. These are :</div>
+                                <div class="panel-body">There are 8 events to be conducted in IMPULSE 2018. These are :
                                 <ul>
                                     <li>Digianatronix</li>
                                     <li>Data Analytics</li>
@@ -951,6 +778,7 @@
                                     <li>Quizmania</li>
                                     <li>Treasure Hunt</li>
                                 </ul>
+								</div>
                             </div>
                         </div>
 
@@ -986,7 +814,7 @@
                             </div>
 
                             <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
-                                <div class="panel-body">IIT Kharagpur has some delicious food waiting for you! Check out here. We have round the clock security everywhere in the campus. Security guards are always on duty at the security counter of all the hostels. Volunteers will also be present at the accommodation venues. But still we request you to avoid carrying expensive items. IMPULSE team does not bear any responsibility for any loss of personal belongings. We have a medical hospital - the BC ROY Hospital inside the campus that will take care of your medical problems, if any. In case of any illness, you or your team members can contact the control tent and we shall ensure immediate action.</div>
+                                <div class="panel-body">IIT Kharagpur has some delicious food waiting for you! Check out <a class="footer_link2" target="_blank" href="http://kaizing.com/">here.</a> We have round the clock security everywhere in the campus. Security guards are always on duty at the security counter of all the hostels. Volunteers will also be present at the accommodation venues. But still we request you to avoid carrying expensive items. IMPULSE team does not bear any responsibility for any loss of personal belongings. We have a medical hospital - the BC ROY Hospital inside the campus that will take care of your medical problems, if any. In case of any illness, you or your team members can contact the control tent and we shall ensure immediate action.</div>
                             </div>
                         </div>
 
@@ -998,7 +826,7 @@
                             </div>
 
                             <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
-                                <div class="panel-body">Complete details of all the events are provided in individual event portals on the official website of IMPULSE. All the results will be announced on the second day , i.e. 26th March in the award ceremony. Participants of all the events will get certificate of participation.</div>
+                                <div class="panel-body">Complete details of all the events are provided in individual event portals on the official website of IMPULSE. All the results will be announced on the second day , i.e. 25th March in the award ceremony. Participants of all the events will get certificate of participation.</div>
                             </div>
                         </div>
 
@@ -1010,7 +838,7 @@
                             </div>
 
                             <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEIght">
-                                <div class="panel-body">Problem statements for the events will be duly released on the IMPULSE website. Please checkout here:</div>
+                                <div class="panel-body">Problem statements for the events will be duly released on the IMPULSE website. Please checkout <a data-scroll class="footer_link2" href="#events">here</a>.</div>
                             </div>
                         </div>
 
@@ -1029,7 +857,9 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
+    
 
 
     <!-- <section id="location" class="section location">
@@ -1048,59 +878,26 @@
         </div>
     </section> -->
 
-    <section id="mu-contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="mu-contact-area">
-
-                            <div class="mu-title-area">
-                                <h2 class="mu-heading-title">Contact Us</h2>
-                                <p>Still have any queries, suggestions or feedbacks? Feel free to leave a comment or a message !!</p>
-                            </div>
-
-                            <!-- Start Contact Content -->
-                            <div class="mu-contact-content">
-                                <div class="row">
-
-                                <div class="col-md-12">
-                                    <div class="mu-contact-form-area">
-                                        <div id="form-messages"></div>
-                                            <form id="ajax-contact" method="post" action="mailer.php" class="mu-contact-form">
-                                                <div class="form-group">                
-                                                    <input type="text" class="form-control" placeholder="Name" id="name" name="name" required>
-                                                </div>
-                                                <div class="form-group">                
-                                                    <input type="email" class="form-control" placeholder="Enter Email" id="email" name="email" required>
-                                                </div>              
-                                                <div class="form-group">
-                                                    <textarea class="form-control" placeholder="Message" id="message" name="message" required></textarea>
-                                                </div>
-                                                <button type="submit" class="mu-send-msg-btn"><span>SUBMIT</span></button>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Contact Content -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Contact -->
-
-    <footer class="site-footer">
+    <footer id="contact" class="site-footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <p class="site-info">Designed and <br> Developed by <a href="http://technextit.com">Akshay And Ravi</a></p>
-                    <ul class="social-block">
-                        <li><a href=""><i class="ion-social-twitter"></i></a></li>
-                        <li><a href=""><i class="ion-social-facebook"></i></a></li>
-                        <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
-                        <li><a href=""><i class="ion-social-googleplus"></i></a></li>
-                    </ul>
+				<div class="col-md-9">
+                    <address>
+                        <strong><font size="4">Contact Us:</font></strong><br>
+                        <br>
+                        Electrical Engineering Department,
+						IIT Kharagpur;
+                        Kharagpur,721302
+                        West Bengal<br>
+                        Phone:+91 7319274024
+						Email:Impulseiitkgp@gmail.com<br>
+                        Facebook: <a class="footer_link" target="_blank" href="https://www.facebook.com/impulse.iitkgp/?fref=ts"><span class="fa fa-facebook"></span></a>&nbsp &nbsp &nbsp 
+                        GPlus: <a class="footer_link" target="_blank" href="https://plus.google.com/u/0/107885523817213373607"><span class="fa fa-google-plus"></span></a><br><br>
+						<p class="site-info">2018 © Electrical Engineering Society. All Rights Reserved. Coded by <a target="_blank" href="https://www.facebook.com/akshay.deuri.75">AKSHAY</a> and <a target="_blank" href="https://www.facebook.com/raviranjan747">RAVI</a></p>
+                    </address>
+                </div>
+				<div class="col-md-3">
+                    <br><br><br><p><a data-scroll class="footer_link" href="#site-header"><font size="5"><b>Back To Top ^<b></font></a></p>
                 </div>
             </div>
         </div>

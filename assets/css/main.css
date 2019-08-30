@@ -876,3 +876,12 @@ Event Schedule
    -moz-border-radius: 4px;
         border-radius: 4px;
 }
+
+.footer_link{
+  color: #337ab7;
+}
+
+.footer_link2{
+  color: #337ab7;
+  text-decoration: underline;
+}
